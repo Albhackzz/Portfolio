@@ -207,10 +207,6 @@ const Contact: React.FC = () => {
                       animate={{ opacity: 1, height: 'auto' }}
                       className="p-4 bg-green-500/10 border border-green-500/20 rounded-lg mt-4"
                     >
-                      <p className="text-green-400 text-sm text-center font-medium">
-                        Success! Please check your email (<b>albin3948@gmail.com</b>) and <b>Spam folder</b>. 
-                        <br/><span className="text-xs opacity-80 mt-1 block">If this is the first time, you MUST click the activation link from FormSubmit to receive messages.</span>
-                      </p>
                     </motion.div>
                   )}
                   
@@ -226,10 +222,6 @@ const Contact: React.FC = () => {
                     </motion.div>
                   )}
                 </AnimatePresence>
-                
-                <p className="text-gray-600 text-[10px] text-center mt-4">
-                  Secured by FormSubmit API • End-to-End Encrypted
-                </p>
               </div>
             </form>
           </motion.div>
